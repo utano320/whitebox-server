@@ -1,0 +1,29 @@
+{
+  "name": "whitebox-server",
+  "version": "0.1.0",
+  "description": "\"Server-side of WhiteBox\"",
+  "scripts": {
+    "start": "forever start app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utano320/whitebox-server.git"
+  },
+  "author": "Mitsuo Utano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/utano320/whitebox-server/issues"
+  },
+  "homepage": "https://github.com/utano320/whitebox-server#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "forever": "^0.15.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
